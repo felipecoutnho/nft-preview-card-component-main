@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    color: #FFF;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:8rem;
+}
+section{
+    
+    background-color:  #14253d;
+    width: 350px;
+    height: 620px;
+    border-radius: 8px;
+}
+
+h1, h2, p:not(img){
+    margin-left: 6px;
+}
+figure{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+figure img{
+    margin: auto;
+   width: 300px;
+   margin-top: 23px;
+   border-radius: 8px;
+   cursor: pointer;
+   
+}
+.imagem-principal{
+    position: relative;
+}
+
+.static-imagem{
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    width: 50px;
+    transform: translate(-46%, -50%);
+
+}
+
+.static-imagem1{
+    position: absolute;
+    top: 23px;
+    left: 25px;
+    height: 92.9%;
+    width: 85.9%;
+    background-color: hsla(178, 100%, 50%, 0.432);
+    border-radius: 8px;
+    opacity: 0;
+  
+}
+
+.static-imagem1:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+
+
+h1{
+    font-weight: 700;
+    color:hsl(0, 0%, 100%);
+    padding: 18px;
+}
+
+h1:hover ,  a:hover{
+    color: #00FFF7;
+}
+
+.paragrafo1{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    width: 306px;
+    line-height: 27px;
+    padding-left: 18px;
+    margin-bottom: 12px;
+    font-weight: 300;
+
+}
+
+.secao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h2{
+    color: hsl(178, 100%, 50%);
+    padding-left: 18px;
+}
+
+h2 i{
+    color:hsl(178, 100%, 50%);
+    margin-right: 4px;
+}
+
+.secao p{
+    color: hsl(215, 51%, 70%);
+    padding-right: 31px;
+    padding-top: 7px;
+    
+}
+
+.secao p i{
+    color: hsl(215, 51%, 70%);
+    margin-right: 4px;
+}
+
+#line-border{
+    margin-left: 18px;
+    display: block;
+    margin-top: 21px;
+    width: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.116);
+}
+
+.imagem-info{
+    display: flex;
+    margin:33px 0px 0px 18px;
+
+}
+
+.imagem-info img{
+    width: 15%;
+    border:  2px solid #FFF;
+    border-radius: 35px;
+}
+
+.imagem-info p{
+    color: hsl(215, 51%, 70%);
+    padding-top: 16px;
+    margin-left: 18px;
+}
+
+
+
