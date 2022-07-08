@@ -8,6 +8,11 @@
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
     color: #FFF;
+   
+}
+
+body{
+    background-color:  #0d192b;
 }
 
 main{
@@ -15,6 +20,7 @@ main{
     flex-direction: column;
     align-items: center;
     margin-top:8rem;
+   
 }
 section{
     
@@ -74,8 +80,6 @@ figure img{
 
 
 
-
-
 h1{
     font-weight: 700;
     color:hsl(0, 0%, 100%);
@@ -84,6 +88,7 @@ h1{
 
 h1:hover ,  a:hover{
     color: #00FFF7;
+    cursor: pointer;
 }
 
 .paragrafo1{
@@ -101,16 +106,19 @@ h1:hover ,  a:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 
 h2{
     color: hsl(178, 100%, 50%);
     padding-left: 18px;
+    
 }
 
 h2 i{
     color:hsl(178, 100%, 50%);
     margin-right: 4px;
+    
 }
 
 .secao p{
@@ -149,6 +157,30 @@ h2 i{
     color: hsl(215, 51%, 70%);
     padding-top: 16px;
     margin-left: 18px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+   padding: 33px;
+  
+}
+
+footer a{
+    color: hsl(215, 51%, 70%);
+    font-size: 1.5rem;
+}
+
+@media screen  and (max-width:375px){
+    footer{
+        padding: 0px;
+    }
+
+    footer a{
+        font-size:0.8rem;
+        font-weight: bold;
+        padding-top: 2px;
+    }
 }
 
 
